@@ -1,0 +1,200 @@
+.hero-section {
+    background-image: url("office-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+.table th,
+.table td {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+.table th {
+    background-color: #0066cc;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 25px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.admin-panel {
+    padding: 100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.centered-heading {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+}
+.centered-date-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.centered-date-selection label {
+    margin-right: 10px;
+}
+
+.centered-date-selection input[type="date"] {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.reservation-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-left: 250px;
+}
+
+.reservation-table th,
+.reservation-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.reservation-table th {
+    background-color: silver;
+    color: white;
+    font-weight: bold;
+}
+
+.reservation-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.reservation-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.admin-panel-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.admin-panel-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.centered-heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.centered-date-selection,
+.save-attendance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.date-selection {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.date-selection label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+.save-attendance {
+    margin-top: 1rem;
+}
+
+.panel-btn,
+.hero-btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #0066cc;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+    border: none;
+}
+
+.panel-btn:hover,
+.hero-btn:hover {
+    background: #0066cc;
+}
+
+.centered-date-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-date-selection label {
+    margin-right: 10px;
+}
+.hidden {
+    display: none;
+}
+
+.view-attendance {
+    margin: 1rem;
+}
